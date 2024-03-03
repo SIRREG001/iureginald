@@ -1201,3 +1201,8 @@ App 1: Healthvault
   width: 500px;
   height: 650px;
 }
+
+/* Footer */
+footer {
+  text-align: right;
+}
