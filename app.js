@@ -49,11 +49,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Get Home 
 app.get('/', (req, res)=>{
-    res.render('home')
+    res.render('home', {title: "Home"})
 });
 //Get Pitch 
 app.get('/pitch', (req, res)=>{
-    res.render('pitch')
+    res.render('pitch', {title: "Pitch"})
 });
 
 
