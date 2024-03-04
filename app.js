@@ -48,7 +48,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // });
 
 //Get Home 
-app.get('/', (req, res)=>{
+app.get('/home', (req, res)=>{
     res.render('home', {title: "Home"})
 });
 //Get Pitch 
